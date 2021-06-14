@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		0944DDFB2671618900222A41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DDFA2671618900222A41 /* AppDelegate.swift */; };
 		0944DDFD2671618900222A41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DDFC2671618900222A41 /* SceneDelegate.swift */; };
-		0944DDFF2671618900222A41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DDFE2671618900222A41 /* ViewController.swift */; };
 		0944DE022671618900222A41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0944DE002671618900222A41 /* Main.storyboard */; };
 		0944DE042671618A00222A41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0944DE032671618A00222A41 /* Assets.xcassets */; };
 		0944DE072671618A00222A41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0944DE052671618A00222A41 /* LaunchScreen.storyboard */; };
+		0944DE12267167E000222A41 /* LayoutOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DE11267167E000222A41 /* LayoutOptionsViewController.swift */; };
+		0944DE1526716D9200222A41 /* PlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DE1426716D9200222A41 /* PlaylistsViewController.swift */; };
+		0944DE182671833400222A41 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DE172671833400222A41 /* TextCell.swift */; };
+		0944DE1C26718DEA00222A41 /* BrandsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DE1B26718DEA00222A41 /* BrandsViewController.swift */; };
+		0944DE1F2671916800222A41 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DE1E2671916800222A41 /* FeaturedViewController.swift */; };
+		0944DE242672AC5E00222A41 /* DemoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DE232672AC5E00222A41 /* DemoModel.swift */; };
+		0944DE272672AEEE00222A41 /* CellSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DE262672AEEE00222A41 /* CellSizes.swift */; };
+		0944DE2B2672AFC400222A41 /* CollectionLayoutHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DE2A2672AFC400222A41 /* CollectionLayoutHelper.swift */; };
+		0944DE2E2672B28D00222A41 /* BaseCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DE2D2672B28D00222A41 /* BaseCollectionController.swift */; };
+		0944DE322672B80200222A41 /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0944DE312672B80200222A41 /* ArticlesViewController.swift */; };
+		0957B6492672C11A0059B534 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0957B6482672C11A0059B534 /* CategoriesViewController.swift */; };
+		0957B64C2672C4E90059B534 /* PagedDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0957B64B2672C4E90059B534 /* PagedDemoViewController.swift */; };
+		098D9B6F2677BD5A000AF9C1 /* TitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098D9B6E2677BD5A000AF9C1 /* TitleHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0944DDF72671618900222A41 /* CompositionLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompositionLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0944DDFA2671618900222A41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0944DDFC2671618900222A41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0944DDFE2671618900222A41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0944DE012671618900222A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0944DE032671618A00222A41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0944DE062671618A00222A41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0944DE082671618A00222A41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0944DE11267167E000222A41 /* LayoutOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutOptionsViewController.swift; sourceTree = "<group>"; };
+		0944DE1426716D9200222A41 /* PlaylistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsViewController.swift; sourceTree = "<group>"; };
+		0944DE172671833400222A41 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		0944DE1B26718DEA00222A41 /* BrandsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsViewController.swift; sourceTree = "<group>"; };
+		0944DE1E2671916800222A41 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
+		0944DE232672AC5E00222A41 /* DemoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoModel.swift; sourceTree = "<group>"; };
+		0944DE262672AEEE00222A41 /* CellSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSizes.swift; sourceTree = "<group>"; };
+		0944DE2A2672AFC400222A41 /* CollectionLayoutHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionLayoutHelper.swift; sourceTree = "<group>"; };
+		0944DE2D2672B28D00222A41 /* BaseCollectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionController.swift; sourceTree = "<group>"; };
+		0944DE312672B80200222A41 /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
+		0957B6482672C11A0059B534 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		0957B64B2672C4E90059B534 /* PagedDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedDemoViewController.swift; sourceTree = "<group>"; };
+		098D9B6E2677BD5A000AF9C1 /* TitleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,43 @@
 		0944DDF92671618900222A41 /* CompositionLayout */ = {
 			isa = PBXGroup;
 			children = (
+				0944DE0F267167B400222A41 /* ExampleViewControllers */,
+				0944DE292672AFB200222A41 /* Utilities */,
+				0944DE172671833400222A41 /* TextCell.swift */,
+				098D9B6E2677BD5A000AF9C1 /* TitleHeaderView.swift */,
 				0944DDFA2671618900222A41 /* AppDelegate.swift */,
 				0944DDFC2671618900222A41 /* SceneDelegate.swift */,
-				0944DDFE2671618900222A41 /* ViewController.swift */,
 				0944DE002671618900222A41 /* Main.storyboard */,
 				0944DE032671618A00222A41 /* Assets.xcassets */,
 				0944DE052671618A00222A41 /* LaunchScreen.storyboard */,
 				0944DE082671618A00222A41 /* Info.plist */,
 			);
 			path = CompositionLayout;
+			sourceTree = "<group>";
+		};
+		0944DE0F267167B400222A41 /* ExampleViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0944DE2D2672B28D00222A41 /* BaseCollectionController.swift */,
+				0944DE1E2671916800222A41 /* FeaturedViewController.swift */,
+				0944DE312672B80200222A41 /* ArticlesViewController.swift */,
+				0944DE1426716D9200222A41 /* PlaylistsViewController.swift */,
+				0944DE1B26718DEA00222A41 /* BrandsViewController.swift */,
+				0957B6482672C11A0059B534 /* CategoriesViewController.swift */,
+				0957B64B2672C4E90059B534 /* PagedDemoViewController.swift */,
+				0944DE11267167E000222A41 /* LayoutOptionsViewController.swift */,
+			);
+			path = ExampleViewControllers;
+			sourceTree = "<group>";
+		};
+		0944DE292672AFB200222A41 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0944DE232672AC5E00222A41 /* DemoModel.swift */,
+				0944DE2A2672AFC400222A41 /* CollectionLayoutHelper.swift */,
+				0944DE262672AEEE00222A41 /* CellSizes.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +189,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0944DDFF2671618900222A41 /* ViewController.swift in Sources */,
+				0944DE242672AC5E00222A41 /* DemoModel.swift in Sources */,
+				0944DE1526716D9200222A41 /* PlaylistsViewController.swift in Sources */,
 				0944DDFB2671618900222A41 /* AppDelegate.swift in Sources */,
 				0944DDFD2671618900222A41 /* SceneDelegate.swift in Sources */,
+				0944DE272672AEEE00222A41 /* CellSizes.swift in Sources */,
+				0944DE2B2672AFC400222A41 /* CollectionLayoutHelper.swift in Sources */,
+				0944DE12267167E000222A41 /* LayoutOptionsViewController.swift in Sources */,
+				0944DE182671833400222A41 /* TextCell.swift in Sources */,
+				0944DE1F2671916800222A41 /* FeaturedViewController.swift in Sources */,
+				0957B64C2672C4E90059B534 /* PagedDemoViewController.swift in Sources */,
+				098D9B6F2677BD5A000AF9C1 /* TitleHeaderView.swift in Sources */,
+				0944DE322672B80200222A41 /* ArticlesViewController.swift in Sources */,
+				0944DE1C26718DEA00222A41 /* BrandsViewController.swift in Sources */,
+				0944DE2E2672B28D00222A41 /* BaseCollectionController.swift in Sources */,
+				0957B6492672C11A0059B534 /* CategoriesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +353,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3F5PBZ5PD;
 				INFOPLIST_FILE = CompositionLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +373,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U3F5PBZ5PD;
 				INFOPLIST_FILE = CompositionLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
